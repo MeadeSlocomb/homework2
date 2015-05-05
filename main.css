@@ -13,15 +13,13 @@ body {
 .authors img {
 	width: 25px;
 	float: right;
-	margin: 0px 0px 5px 5px;
-	border-bottom: 2px solid #cfcfcf;
+	margin: 0px 0px 5px 10px;
 	border-radius: 5px;
 }
 
 .octocat {
 	float: left;
-	margin: 10px;
-	border-radius: 10px;
+	border-bottom: 2px solid #cfcfcf;
 }
 
 a {
@@ -46,10 +44,8 @@ ul {
 
 .image-footer {
 	border-bottom: 2px solid #cfcfcf;
-	margin-bottom: 50px;
-
 }
 
-.image-number::before {
-	content: "#";
+.authors {
+	display: inline;
 }
