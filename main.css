@@ -1,18 +1,27 @@
-img {
-	width: 245px; ;
+body {
+	font-family: sans-serif;
+	float: left;
+}
+
+
+.octocat img {
+	width: 245px;
+	border: 2px solid #cfcfcf;
+	margin: 10px;
 }
 
 .authors img {
 	width: 25px;
 	float: right;
-	margin: 0px 5px 5px 5px;
+	margin: 0px 0px 5px 5px;
+	border-bottom: 2px solid #cfcfcf;
+	border-radius: 5px;
 }
 
 .octocat {
 	float: left;
-	border: solid grey 1px;
 	margin: 10px;
-
+	border-radius: 10px;
 }
 
 a {
@@ -24,8 +33,7 @@ ul {
 }
 
 .image-number {
-	color: #e2e2e2;
-	;
+	color: #cfcfcf;
 }
 
 .image-number::before {
@@ -36,3 +44,12 @@ ul {
 	float: right;
 }
 
+.image-footer {
+	border-bottom: 2px solid #cfcfcf;
+	margin-bottom: 50px;
+
+}
+
+.image-number::before {
+	content: "#";
+}
