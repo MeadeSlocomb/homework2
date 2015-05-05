@@ -4,6 +4,8 @@ img {
 
 .authors img {
 	width: 25px;
+	float: right;
+	margin: 0px 5px 5px 5px;
 }
 
 .octocat {
@@ -20,3 +22,17 @@ a {
 ul {
 	list-style-type: none;
 }
+
+.image-number {
+	color: #e2e2e2;
+	;
+}
+
+.image-number::before {
+	content: "#";
+}
+
+.image-caption {
+	float: right;
+}
+
