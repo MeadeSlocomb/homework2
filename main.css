@@ -13,7 +13,6 @@ body {
 
 .authors img {
 	width: 25px;
-	margin: 0px 0px 5px 10px;
 	border-radius: 5px;
 }
 
@@ -35,6 +34,15 @@ ul {
 
 .image-number {
 	color: #cfcfcf;
+	font-weight: bold;
+	font-size: .9em;
+	position: relative;
+	right: 8px;
+}
+
+.image-footer {
+	padding: 10px;
+	padding-bottom: 20px;
 }
 
 .image-caption {
@@ -43,12 +51,8 @@ ul {
 	font-weight: bold;
 	font-size: .9em;
 	color: grey;
-}
-
-.authors img {
-	display: inline;
-	float: right;
-	border: none;
+	position: relative;
+	left: 8px;
 }
 
 .image-number::before {
@@ -57,5 +61,20 @@ ul {
 
 .authors {
 	display: inline;
+	float: right;
 }
 
+.image-caption span{
+	position: relative;
+	top: 5px;
+}
+
+.image-caption a {
+	position: relative;
+	top: 5px;
+}
+
+.authors img {
+	position: relative;
+	bottom: 5px;
+}
