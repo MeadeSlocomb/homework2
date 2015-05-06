@@ -6,9 +6,8 @@ body {
 
 
 .octocat img {
-	width: 390px;
+	width: 380px;
 	border: 1px solid #cfcfcf;
-	margin: 10px;
 	border-radius: 3px;
 }
 
@@ -21,15 +20,17 @@ body {
 .octocat {
 	float: left;
 	border-bottom: 1px solid #cfcfcf;
+	margin: 10px;
 }
 
 a {
 	text-decoration: none;
+	color: black;
 }
 
 ul {
 	list-style-type: none;
-	padding: 0px 0px 0px 15px;
+	padding: 0px 0px 0px 10px;
 }
 
 .image-number {
@@ -58,6 +59,3 @@ ul {
 	display: inline;
 }
 
-.image-footer {
-	position: relative;
-}
